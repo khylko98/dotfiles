@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# But not ignore this files and folders:
+!.gitignore
+!alacritty
+!alacritty/alacritty.toml
