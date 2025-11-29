@@ -5,3 +5,5 @@
 !.gitignore
 !alacritty
 !alacritty/alacritty.toml
+!zsh
+!zsh/*
