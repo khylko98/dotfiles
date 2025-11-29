@@ -7,3 +7,5 @@
 !alacritty/alacritty.toml
 !zsh
 !zsh/*
+!tmux
+!tmux/tmux.conf
