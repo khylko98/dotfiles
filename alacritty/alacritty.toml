@@ -12,7 +12,7 @@ LANG = "en_US.UTF-8"
 [window]
 dynamic_padding = true
 decorations = "None"
-opacity = 0.9
+opacity = 1
 startup_mode = "Maximized"
 
 [window.padding]
@@ -37,16 +37,6 @@ program = "/usr/bin/zsh"
 chars = "\u0015"
 key = "Back"
 mods = "Control"
-
-[[keyboard.bindings]]
-chars = "\u001Bb"
-key = "Left"
-mods = "Alt"
-
-[[keyboard.bindings]]
-chars = "\u001Bf"
-key = "Right"
-mods = "Alt"
 
 [[keyboard.bindings]]
 chars = "\u001BOH"
