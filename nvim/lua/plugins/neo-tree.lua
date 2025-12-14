@@ -13,6 +13,7 @@ return {
 				hide_gitignored = false,
 			},
 		},
+        close_if_last_window = true,
 	},
 	config = function(_, opts)
 		require("neo-tree").setup(opts)
