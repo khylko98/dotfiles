@@ -1,7 +1,7 @@
 [general]
 import = [
     # https://github.com/alacritty/alacritty-theme
-    "~/.config/alacritty/alacritty-theme/themes/catppuccin_mocha.toml"
+    "~/.config/alacritty/alacritty-theme/themes/nord.toml"
 ]
 
 [env]

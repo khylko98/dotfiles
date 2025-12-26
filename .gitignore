@@ -13,11 +13,8 @@
 !tmux
 !tmux/tmux.conf
 
-!nvim
-!nvim/init.lua
-!nvim/lua
-!nvim/lua/core
-!nvim/lua/core/*
-!nvim/lua/plugins
-!nvim/lua/plugins/*
-!nvim/.luarc.json
+!starship.toml
+
+!helix
+!helix/config.toml
+!helix/languages.toml

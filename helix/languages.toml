@@ -1,0 +1,6 @@
+[language-server.pyright.config]
+python.analysis.autoImportCompletions = false
+
+[[language]]
+name = "python"
+language-servers = ["pyright", "ruff"]
