@@ -1,0 +1,19 @@
+[language-server.pyright.config]
+python.analysis.autoImportCompletions = false
+
+[[language]]
+name = "python"
+language-servers = ["pyright", "ruff"]
+
+[[language]]
+name = "javascript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+
+[[language]]
+name = "typescript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server"]
+formatter = { command = 'prettier', args = ["--stdin-filepath", "%{buffer_name}"] }

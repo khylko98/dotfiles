@@ -9,3 +9,6 @@
 
 !tmux/
 !tmux/tmux.conf
+
+!helix/
+!helix/*
