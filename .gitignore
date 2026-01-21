@@ -12,3 +12,6 @@
 
 !helix/
 !helix/*
+
+!zsh/
+!zsh/*
