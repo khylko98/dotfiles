@@ -17,3 +17,7 @@ formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 name = "html"
 language-servers = ["vscode-html-language-server"]
 formatter = { command = 'prettier', args = ["--stdin-filepath", "%{buffer_name}"] }
+
+[[language]]
+name = "go"
+formatter = { command = "gofmt" }
